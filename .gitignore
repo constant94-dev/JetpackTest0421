@@ -14,6 +14,37 @@
 .cxx
 local.properties
 
+# ROW_Column_Text Directory
+/ROW_Column_Text/*.iml
+/ROW_Column_Text/.gradle
+/ROW_Column_Text/local.properties
+/ROW_Column_Text/.idea/caches
+/ROW_Column_Text/.idea/libraries
+/ROW_Column_Text/.idea/modules.xml
+/ROW_Column_Text/.idea/workspace.xml
+/ROW_Column_Text/.idea/navEditor.xml
+/ROW_Column_Text/.idea/assetWizardSettings.xml
+/ROW_Column_Text/build
+/ROW_Column_Text/captures
+/ROW_Column_Text/.externalNativeBuild
+/ROW_Column_Text/.cxx
+
+# Composable_Preview Directory
+/Composable_Preview/*.iml
+/Composable_Preview/.gradle
+/Composable_Preview/local.properties
+/Composable_Preview/.idea/caches
+/Composable_Preview/.idea/libraries
+/Composable_Preview/.idea/modules.xml
+/Composable_Preview/.idea/workspace.xml
+/Composable_Preview/.idea/navEditor.xml
+/Composable_Preview/.idea/assetWizardSettings.xml
+/Composable_Preview/build
+/Composable_Preview/captures
+/Composable_Preview/.externalNativeBuild
+/Composable_Preview/.cxx
+
+
 # Created by https://www.toptal.com/developers/gitignore/api/macos,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows
 
