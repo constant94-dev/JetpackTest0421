@@ -6,8 +6,13 @@ import androidx.activity.compose.setContent
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -16,6 +21,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
@@ -35,41 +41,28 @@ class MainActivity : ComponentActivity() {
             Test0421Theme {
                 // A surface container using the 'background' color from the theme
                 Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = Color.Yellow
+                    color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Android API 13")
+                    Column(
+                        modifier = Modifier
+                            .fillMaxSize() /* 화면의 꽉 채우는 설정 */
+                            .background(color = Color.Blue) /* 화면 배경색상 */
+                            .padding(16.dp), /* 패딩 크기 */
+                        horizontalAlignment = Alignment.CenterHorizontally, /* 가로 정렬 설정 */
+                        verticalArrangement = Arrangement.SpaceBetween /* 세로 정렬 설정 */
+                    ) { /* 수직 배열 */
+                        Text("Hello")
+                        Text("World")
+                    }
+                    /*Row {*//* 수평 배열 *//*
+                        Text("Hello")
+                        Spacer(Modifier.width(16.dp))
+                        Text("World")
+                    }*/
+
                 }
             }
         }
     }
 }
 
-/*
-* @Composable 어노테이션을 붙이게 되면 함수 안 다른 함수를 호출
-* UI 계층 별 요구하는 컴포넌트 생성
-* */
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    var isSelected by remember { mutableStateOf(false) }
-    val backgroundColor by animateColorAsState(if (isSelected) Color.Red else Color.Transparent)
-
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-            .padding(24.dp)
-            .background(color = backgroundColor)
-            .clickable(onClick = { isSelected = !isSelected})
-    )
-}
-
-/*
-* @Preview 해석 그대로 IDE 에서 미리보기를 하기 위한 용도이다.
-* */
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    Test0421Theme {
-        Greeting("Preview Android API 13")
-    }
-}

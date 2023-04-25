@@ -37,6 +37,7 @@ private val LightColorScheme = lightColorScheme(
     */
 )
 
+/* 테마를 구성하는 코드 */
 @Composable
 fun Test0421Theme(
     darkTheme: Boolean = isSystemInDarkTheme(),
