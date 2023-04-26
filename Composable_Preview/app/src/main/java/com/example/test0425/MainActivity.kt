@@ -29,6 +29,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+/* @Composable 어노테이션 주석이 작성된 함수는 첫번째 이름이 대문자로 작성되어야 한다. */
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
@@ -41,6 +42,14 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     Test0425Theme {
-        Greeting("Android")
+        Greeting("박상준")
+    }
+}
+
+@Preview(showBackground = true)
+@Composable
+fun GreetingPreview2() {
+    Test0425Theme {
+        Greeting("홍길동")
     }
 }
