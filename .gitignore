@@ -44,6 +44,35 @@ local.properties
 /Composable_Preview/.externalNativeBuild
 /Composable_Preview/.cxx
 
+# List_LazyColumn
+/List_LazyColumn/*.iml
+/List_LazyColumn/.gradle
+/List_LazyColumn/local.properties
+/List_LazyColumn/.idea/caches
+/List_LazyColumn/.idea/libraries
+/List_LazyColumn/.idea/modules.xml
+/List_LazyColumn/.idea/workspace.xml
+/List_LazyColumn/.idea/navEditor.xml
+/List_LazyColumn/.idea/assetWizardSettings.xml
+/List_LazyColumn/build
+/List_LazyColumn/captures
+/List_LazyColumn/.externalNativeBuild
+/List_LazyColumn/.cxx
+
+# Image_Card_State
+/Image_Card_State/*.iml
+/Image_Card_State/.gradle
+/Image_Card_State/local.properties
+/Image_Card_State/.idea/caches
+/Image_Card_State/.idea/libraries
+/Image_Card_State/.idea/modules.xml
+/Image_Card_State/.idea/workspace.xml
+/Image_Card_State/.idea/navEditor.xml
+/Image_Card_State/.idea/assetWizardSettings.xml
+/Image_Card_State/build
+/Image_Card_State/captures
+/Image_Card_State/.externalNativeBuild
+/Image_Card_State/.cxx
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows
