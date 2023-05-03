@@ -74,6 +74,21 @@ local.properties
 /Image_Card_State/.externalNativeBuild
 /Image_Card_State/.cxx
 
+# Scaffold_TextField_Button_Destructuring_SnackBar_CoroutineScope
+/Scaffold_TextField_Button_Destructuring_SnackBar_CoroutineScope/*.iml
+/Scaffold_TextField_Button_Destructuring_SnackBar_CoroutineScope/.gradle
+/Scaffold_TextField_Button_Destructuring_SnackBar_CoroutineScope/local.properties
+/Scaffold_TextField_Button_Destructuring_SnackBar_CoroutineScope/.idea/caches
+/Scaffold_TextField_Button_Destructuring_SnackBar_CoroutineScope/.idea/libraries
+/Scaffold_TextField_Button_Destructuring_SnackBar_CoroutineScope/.idea/modules.xml
+/Scaffold_TextField_Button_Destructuring_SnackBar_CoroutineScope/.idea/workspace.xml
+/Scaffold_TextField_Button_Destructuring_SnackBar_CoroutineScope/.idea/navEditor.xml
+/Scaffold_TextField_Button_Destructuring_SnackBar_CoroutineScope/.idea/assetWizardSettings.xml
+/Scaffold_TextField_Button_Destructuring_SnackBar_CoroutineScope/build
+/Scaffold_TextField_Button_Destructuring_SnackBar_CoroutineScope/captures
+/Scaffold_TextField_Button_Destructuring_SnackBar_CoroutineScope/.externalNativeBuild
+/Scaffold_TextField_Button_Destructuring_SnackBar_CoroutineScope/.cxx
+
 # Created by https://www.toptal.com/developers/gitignore/api/macos,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows
 
