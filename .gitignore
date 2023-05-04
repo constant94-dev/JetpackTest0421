@@ -89,6 +89,21 @@ local.properties
 /Scaffold_TextField_Button_Destructuring_SnackBar_CoroutineScope/.externalNativeBuild
 /Scaffold_TextField_Button_Destructuring_SnackBar_CoroutineScope/.cxx
 
+# Navigation
+/Navigation/*.iml
+/Navigation/.gradle
+/Navigation/local.properties
+/Navigation/.idea/caches
+/Navigation/.idea/libraries
+/Navigation/.idea/modules.xml
+/Navigation/.idea/workspace.xml
+/Navigation/.idea/navEditor.xml
+/Navigation/.idea/assetWizardSettings.xml
+/Navigation/build
+/Navigation/captures
+/Navigation/.externalNativeBuild
+/Navigation/.cxx
+
 # Created by https://www.toptal.com/developers/gitignore/api/macos,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows
 
