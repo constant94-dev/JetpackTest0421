@@ -119,6 +119,22 @@ local.properties
 /ViewModel/.externalNativeBuild
 /ViewModel/.cxx
 
+# AdvanceState
+/AdvanceState/*.iml
+/AdvanceState/.gradle
+/AdvanceState/local.properties
+/AdvanceState/.idea/caches
+/AdvanceState/.idea/libraries
+/AdvanceState/.idea/modules.xml
+/AdvanceState/.idea/workspace.xml
+/AdvanceState/.idea/navEditor.xml
+/AdvanceState/.idea/assetWizardSettings.xml
+/AdvanceState/build
+/AdvanceState/captures
+/AdvanceState/.externalNativeBuild
+/AdvanceState/.cxx
+
+
 # Created by https://www.toptal.com/developers/gitignore/api/macos,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows
 
