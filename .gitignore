@@ -104,6 +104,21 @@ local.properties
 /Navigation/.externalNativeBuild
 /Navigation/.cxx
 
+# ViewModel
+/ViewModel/*.iml
+/ViewModel/.gradle
+/ViewModel/local.properties
+/ViewModel/.idea/caches
+/ViewModel/.idea/libraries
+/ViewModel/.idea/modules.xml
+/ViewModel/.idea/workspace.xml
+/ViewModel/.idea/navEditor.xml
+/ViewModel/.idea/assetWizardSettings.xml
+/ViewModel/build
+/ViewModel/captures
+/ViewModel/.externalNativeBuild
+/ViewModel/.cxx
+
 # Created by https://www.toptal.com/developers/gitignore/api/macos,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows
 
