@@ -39,6 +39,8 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+
+
 @ExperimentalMaterial3Api
 @Composable
 private fun HomeScreen(viewModel: MainViewModel = viewModel()) {
@@ -53,7 +55,7 @@ private fun HomeScreen(viewModel: MainViewModel = viewModel()) {
         mutableStateOf("")
     }
 
-    // 구조분해를 사용해 'text' 변수는 상수 값 'setText' 는 값을 변경하고 싶을 때 사용할 수 있다.
+    // '구조분해'를 사용해 'text' 변수는 상수 값 'setText' 는 값을 변경하고 싶을 때 사용할 수 있다.
     val (text: String, setText: (String) -> Unit) = remember {
         mutableStateOf("")
     }
